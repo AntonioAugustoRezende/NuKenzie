@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+.logo {
+  height: 19.5260009765625px;
+  width: 122.67755126953125px;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heigth-header {
+  height: 88px;
+}
+.heigth-0 {
+  height: 100%;
+}
+.header {
+  box-shadow: 0px 4px 32px -12px #00000040;
+}
+.mb-6 {
+  margin-bottom: 40px;
+}

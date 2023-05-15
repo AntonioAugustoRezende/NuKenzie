@@ -1,0 +1,13 @@
+.title-nocard {
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  color: #343a40;
+}
+.mb-noCard {
+  margin-bottom: 30px;
+}
+
+.width-img {
+  width: 100%;
+}

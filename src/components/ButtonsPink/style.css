@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+.button-pink {
+  height: 48px;
+  width: 241px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}

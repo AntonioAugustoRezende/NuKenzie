@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+.title-1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.span-1 {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.logo {
+  height: 19.5260009765625px;
+  width: 122.67755126953125px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.width-0 {
+  width: 20%;
+}
+.mb-0 {
+  margin-bottom: 29px;
+}
+.button-pink {
+  height: 48px;
+  width: 241px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+.App {
+  background: #212529;
+  width: 100vw;
+  height: 100vh;
+}
+.ml-0 {
+  margin-left: 50px;
+}
+.none {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .none {
+    display: none;
+  }
+  .width-0 {
+    width: 75%;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex-main {
+    display: block;
+  }
+  .width-main {
+    width: 100%;
+  }
+  .form-profile {
+    height: 351px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+    padding-left: 25px;
+  }
+  .input-form {
+    height: 52.80000305175781px;
+    width: 95%;
+    border-radius: 8px;
+    padding: 0px 16px 0px 16px;
+    border: 2px solid #f8f9fa;
+    background-color: #f8f9fa;
+  }
+  .button-brand {
+    height: 52.80000305175781px;
+    width: 95%;
+    border-radius: 8px;
+    border: 2px solid #fd377e;
+    background-color: #fd377e;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .text {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 20px;
+  }
+  .width-resume {
+    width: 100%;
+  }
+}
